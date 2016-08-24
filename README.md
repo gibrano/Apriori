@@ -4,7 +4,7 @@ Apriori algorithm of Association Rules in R code
 data=list(c("Leche", "Lechuga"),c("Lechuga", "Cerveza", "Vino", "Queso"),c("Leche", "Cerveza", "Vino", "Jugo de Naranja"),c("Lechuga", "Leche", "Cerveza", "Vino"),c("Lechuga", "Leche", "Cerveza", "Jugo de Naranja"))
 
 apriori(data)
-
+```
                                  Pattern Support
 1                                Cerveza     0.8
 3                                  Leche     0.8
@@ -41,3 +41,4 @@ apriori(data)
 44    Cerveza,Jugo de Naranja,Leche,Vino     0.2
 49            Cerveza,Leche,Lechuga,Vino     0.2
 51            Cerveza,Lechuga,Queso,Vino     0.2
+```
