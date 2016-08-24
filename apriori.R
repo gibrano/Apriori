@@ -12,7 +12,7 @@ products=function(dataset){
   return(sort(c1))
 }
 
-items=products(data)
+items=products(dataset)
 combinations=list()
 
 for (j in 1:length(items)) {
