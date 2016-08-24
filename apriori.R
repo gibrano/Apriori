@@ -34,7 +34,7 @@ support=function(x,y){
 
 result=data.frame()
 for (i in 1:length(combinations)) {
-    result=rbind(result,support(combinations[[i]],data))
+    result=rbind(result,support(combinations[[i]],dataset))
 }
 
 result=result[result$Support>0,]
