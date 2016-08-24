@@ -43,4 +43,4 @@ apriori(data)
 51            Cerveza,Lechuga,Queso,Vino     0.2
 ```
 
-Let there be light
+
